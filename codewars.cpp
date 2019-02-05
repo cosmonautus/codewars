@@ -1551,6 +1551,8 @@ void print_delimiter()
 
 int main()
 {   
+    std::cout << "Codewars tasks.\n";
+
     std::vector<int> we = { 4, 2, 1, 4, 3, 1, 2 };
     std::cout << Rank::nthRank("Addison,Jayden,Sofia,Michael,Andrew,Lily,Benjamin", we, 4) << std::endl; //Benjamin
     we = { 1, 3, 5, 5, 3, 6 };
